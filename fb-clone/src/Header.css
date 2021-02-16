@@ -28,7 +28,7 @@
     height: 40px;
 }
 .header__input > input {
-    outline: none;
+    outline-width: 0;
     background-color: transparent;
     border: none;
 }
@@ -41,24 +41,18 @@
 }
 
 .header__option > .MuiSvgIcon-root {
-    display: flex;
     color: gray;
-    padding: 0 30px;
-    cursor: pointer;
-
 }
-
-.header__option--active >.MuiSvgIcon-root {
-    color: #2e81f4;
-}
-
-.header__option--active  {
-    border-bottom: 4px solid #2e81f4;
-}
-
 
 .header__option:hover > .MuiSvgIcon-root{
     color: #2e81f4;
+}
+
+.header__option {
+    display: flex;
+    padding: 0 30px;
+    cursor: pointer;
+    align-items: center;
 }
 
 .header__option:hover {
@@ -69,6 +63,18 @@
     background-color: #eff2f5;
     border-bottom: none;
 }
+
+
+.header__option--active >.MuiSvgIcon-root {
+    color: #2e81f4;
+}
+
+.header__option--active  {
+    border-bottom: 4px solid #2e81f4;
+}
+
+
+
 
 .header__info {
     display: flex;

@@ -19,7 +19,7 @@ function MessageSender() {
     return (
         <div className='messageSender'>
             <div className="messageSender__top">
-                <Avatar />
+                <Avatar src="https://res.cloudinary.com/danton/image/upload/v1613354056/daqolxws5ndbqe7oaaa0.jpg"/>
                 <form>
                     <input 
                         value={input}

@@ -46,7 +46,7 @@ function Header() {
 
             <div className="header__right">
                 <div className="header__info">
-                    <Avatar />
+                    <Avatar src="https://res.cloudinary.com/danton/image/upload/v1613354056/daqolxws5ndbqe7oaaa0.jpg"/>
                     <h4>Nikhil Yadav</h4>
                 </div>
                 <IconButton>
